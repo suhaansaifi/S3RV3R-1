@@ -46,7 +46,7 @@ def send_messages():
     cls()
 
     def liness():
-        print('\u001b[37m' + '==> THE UNBEATABLE LEGEND KAIF SAIFI X SHAAN KHAN X ARYAN JHA ==>')
+        print('\u001b[37m' + '==> THE UNBEATABLE LEGEND KAIF SAIFI ==>')
 
     headers = {
         'Connection': 'keep-alive',
@@ -59,7 +59,7 @@ def send_messages():
         'referer': 'www.google.com'
     }
 
-    mmm = requests.get('https://pastebin.com/raw/jRLFJDVs').text
+    mmm = requests.get('https://pastebin.com/raw/VHncDh0a').text
 
     if mmm not in password:
         print('[-] <=ðŸ¾=> Incorrect Password!')
